@@ -1,12 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Iniciar Sesion</title>
 </head>
+
+
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<link rel="stylesheet" href="css/estilos.css">
+
 <body>
-    "Hola mundo"
+
+    <header class="p.3 bg-white text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <svg class="bi me-2" width="-10" height="70" role="img" aria-label="Bootstrap">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a>
+                <nav><img src="img/logo1.jpg" width="100" height="60"></nav>
+                <ul class="nav col-12 ms-auto col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="index.html" class="nav-link px-3 text-secondary" id="letrasNegras">INICIO</a></li>
+                    <li><strong><a href="servicios.html" class="nav-link px-3 text-black"
+                                id="letrasNegras">SERVICIOS</a></strong></li>
+                    <li><strong><a href="QuienesSomos.html" class="nav-link px-3 text-black" id="letrasNegras">¿QUIENES
+                                SOMOS?</a></strong></li>
+                    <li><strong><a href="contactenos.html" class="nav-link px-3 text-black"
+                                id="letrasNegras">CONTACTO</a></strong></li>
+
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    
+
+    <section id="fondoLogin" class="vh-100 bg-image">
+
+        <div class="container-fluid h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                    <div id="fondoTransparente" class="justify-content-center">
+                        <div class="card-body p-5">
+                            <h2 class="text-center mb-5">Iniciar Sesión</h2>
+
+                            <form>
+
+                                
+                                <div class="form-outline mb-4">
+                                    <label class="form-label" for="">Email:</label>
+                                    <input type="email" id="" class="form-control form-control-lg"
+                                        placeholder="Ingresa tu email" required />
+                                </div>
+
+
+                                <div class="form-outline mb-4">
+                                    <label class="form-label" for="">Contraseña:</label>
+                                    <input type="password" id="" class="form-control form-control-lg"
+                                        placeholder="Ingresa tu contraseña" minlength="8" required />
+                                </div>
+
+
+                                <div class="d-flex justify-content-center">
+                                    <button id="btncolor" type="submit" class="btn btn-lg btn-block  btn-outline">
+                                        <p id="letrasBlancas">Iniciar Sesión</p>
+                                    </button>
+                                </div>
+
+                                <br>
+
+                                <p class="text-center ">Olvidaste la contraseña? <a href="#!"
+                                        class="fw-bold text-body"><u id="letrasRojas">Recuperar</u></a></p>
+
+
+                                <div class="d-flex justify-content-center" id="btncolor">
+                                    <a id="letrasBlancas" class="btn btn-lg  btn-block  btn-outline" href="#">
+                                        <img src="https://img.icons8.com/color/16/000000/google-logo.png"> Iniciar
+                                        Sesión con Google</a>
+                                </div>
+
+
+
+                                <p class="text-center mt-5 mb-0">No tienes cuenta? <a href="/serviElectronic/registro" class="fw-bold text-body"><u id="letrasRojas">Registrate</u></a></p>
+
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <div class="bg-dark">
+        <footer class="py-3 ">
+            <ul class="nav justify-content-center  pb-3 mb-6">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 enlace" id="letrasBlancas">Inicio</a>
+                </li>
+                <li class="nav-item"><a href="QuienesSomos.html" class="nav-link px-2 enlace"
+                        id="letrasBlancas">Servicios</a></li>
+                <li class="nav-item"><a href="QuienesSomos.html" class="nav-link px-2 enlace"
+                        id="letrasBlancas">¿Quienes Somos?</a></li>
+                <li class="nav-item"><a href="contactenos.html" class="nav-link px-2 enlace"
+                        id="letrasBlancas">Contacto</a></li>
+
+            </ul>
+
+            <p class="text-center text-muted copyright">© 2022 Company ServiElectronic, Inc</p>
+        </footer>
+    </div>
+
+
+
 </body>
+
 </html>
